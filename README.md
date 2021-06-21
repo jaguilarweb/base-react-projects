@@ -24,6 +24,21 @@ El equipo debe tener instalado Nodejs, npm y/o yarn (para MacOS).
 * Inicializar el proyecto (la opción -y otorga una preconfiguración que puede ser modificada posteriormente en el archivo package.json)
 `$ npm install -y`
 
+* Organizar la estructura del proyecto, creando los directorios y archivos escenciales.
+
+  ```sh
+  ├── README.md
+  ├── package.json
+  ├── package-lock.json
+  ├── .gitignore
+  ├── public
+  │   ├── index.html
+  └── src
+      ├── components
+      └── index.js
+  ```
+
+
 # Autor
 
 La documentación ha sido creada por Jenny Aguilar, alias jaguilarweb.
