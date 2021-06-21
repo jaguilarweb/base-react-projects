@@ -54,6 +54,11 @@ El equipo debe tener instalado Nodejs, npm y/o yarn (para MacOS).
 
 * Crear el archivo .babelrc y agregar los presets instalados.
 
+* Instalar Webpack
+
+`$ npm install webpack webpack-cli html-webpack-plugin html-loader —-save-dev`
+
+* Crear archivo de configuración de Webpack webpack.config.js
 
 # Autor
 
