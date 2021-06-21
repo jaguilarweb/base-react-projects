@@ -58,7 +58,15 @@ El equipo debe tener instalado Nodejs, npm y/o yarn (para MacOS).
 
 `$ npm install webpack webpack-cli html-webpack-plugin html-loader —-save-dev`
 
-* Crear archivo de configuración de Webpack webpack.config.js
+* Crear archivo de configuración de Webpack webpack.config.js. Este archivo queda con la configuración de mode production.
+
+* Instalar webpack-dev-server, para crear entorno de desarrollo.
+
+`$ npm install --save-dev webpack-dev-server`
+
+* Actualizar el archivo de configuración de webpack para agregar el script para el modo de desarrollo.
+
+
 
 # Autor
 
